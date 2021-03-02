@@ -9,12 +9,12 @@
 
 #define NTHREADS 3
 
-int * retVal;
-
 void *rot(void *i) {
 	int creationNum = *(int*)i;
+
+	int * retVal = malloc(sizeof(int));
+	*retVal = creationNum*creationNum;
 	
-	retVal[creationNum] = creationNum*creationNum;
 	printf("\n\t In thread PID: %d ; TID: %lu.; i*i: %d", getpid(), (unsigned long) pthread_self(),  creationNum*creationNum);
 	pthread_exit((void*)retVal);	// no termination code
 }
@@ -24,7 +24,6 @@ int main() {
 	pthread_t ids[NTHREADS];	// storage of (system) Thread Identifiers
 	int creationNums[NTHREADS];
 	void ** retValm = malloc(sizeof(void*));
-	retVal = malloc(3*sizeof(int));
 
 	setbuf (stdout, NULL);	// only for debugging
 	printf("\nMain thread PID: %d ; TID: %lu.\n", getpid(), (unsigned long) pthread_self());
@@ -43,14 +42,14 @@ int main() {
 	for(i=0; i<NTHREADS; i++) {
 		pthread_join(ids[i], retValm);	// Note: threads give no termination code
 
-		printf("\nTermination of thread %d: %lu. Returned %d", i, (unsigned long)ids[i], (*(int**)retValm)[i]);
+		printf("\nTermination of thread %d: %lu. Returned %d", i, (unsigned long)ids[i], (**(int**)retValm));
+
+		free(retValm[0]);
 	}
 
-	free(retVal);
 	free(retValm);
 
 	printf("\n");
-	pthread_exit(NULL);	// here, not really necessary...
 	return 0;	// will not run this!
 }
 
