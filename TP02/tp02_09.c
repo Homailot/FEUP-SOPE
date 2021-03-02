@@ -53,3 +53,5 @@ int main() {
 	pthread_exit(NULL);	// here, not really necessary...
 	return 0;	// will not run this!
 }
+
+// ps -eLf --- gives info on threads
