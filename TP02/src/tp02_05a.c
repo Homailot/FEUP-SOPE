@@ -1,15 +1,13 @@
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <stdio.h>
-#include <sys/wait.h>
-#include <sys/types.h>
-
-
 
 int main() {
     int id = fork();
 
-    if(id == -1) {
+    if (id == -1) {
         perror(NULL);
         exit(EXIT_FAILURE);
     }
@@ -23,7 +21,7 @@ int main() {
             //     perror(NULL);
             //     exit(EXIT_FAILURE);
             // }
-            if(waitpid(id, NULL, 0) == -1) {
+            if (waitpid(id, NULL, 0) == -1) {
                 perror(NULL);
                 exit(EXIT_FAILURE);
             }

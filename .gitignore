@@ -1,2 +1,4 @@
 *.json
 *.o
+.clang-format
+
