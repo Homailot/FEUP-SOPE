@@ -1,4 +1,5 @@
 *.json
 *.o
 .clang-format
+race-thr/
 
