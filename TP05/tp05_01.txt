@@ -1,0 +1,6 @@
+i. polling
+ii.polling
+iii. DMA
+iv. DMA
+v. interrupts
+
