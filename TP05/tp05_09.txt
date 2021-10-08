@@ -1,0 +1,2 @@
+1. Faster transfer and lower power usage
+2. Expensive for more data

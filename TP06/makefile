@@ -7,7 +7,7 @@ OBJ := .
 SOURCES := $(wildcard $(SRC)/*.c)
 OBJECTS := $(patsubst $(SRC)/%.c, $(OBJ)/%, $(SOURCES))
 
-flags = -g -Wall -fno-stack-protector
+flags = -g -Wall
 libs = -lpthread
 
 all: $(OBJECTS)

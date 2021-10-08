@@ -22,7 +22,7 @@ int main() {
     switch (id) {
         case 0:
             close(pp[0]);
-            if (write(pp[1], "Systems", strlen("Systems") + 1) < 0) {
+            if (write(pp[1], "Systems", strlen("Systems")) < 0) {
                 perror("write pipe");
                 close(pp[1]);
 
@@ -39,6 +39,7 @@ int main() {
 
                 exit(errno);
             }
+            write(STDOUT_FILENO, msg, 50);
             close(pp[0]);
 
             printf("Operating %s\n", msg);

@@ -1,0 +1,14 @@
+1.
+a.
+Can be easily interpreted by different software, meaning easier to share
+More portable
+liberdade de fazer o que quisermos
+b.
+é uma black box para o sistema operativo, por isso nao nos consegue auxiliar
+como programadores temos a responsabilidade de saber o que fazer com o array de bytes
+exemplo: se fosse um dicionario o os podia nos ajudar
+2.
+numa base de dados nao guardamos de forma hierarquica
+forma hierarquica pode nao ser o melhor para todas as aplicacoes
+hoje em dia as paginas nao tem toda a hireraquia
+10.

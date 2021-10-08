@@ -1,0 +1,251 @@
+[824894][      debug] Loading models took 36.727ms
+[824895][      debug] Sqlite write daemon: starting up
+[824895][      debug] Sqlite write daemon: set up complete, waiting for connections
+[824894][environment] CWD = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824894][environment] No .inferconfig file found
+[824894][environment] Project root = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824894][environment] INFER_ARGS =   @/tmp/args.tmp.7a2ba8
+[824894][environment] command line arguments:   infer run -- make
+[824894][environment] Available memory at startup: 1745 MB
+[824894][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[824894][environment] Scheduler: file
+[824894][environment] Cores used: 4
+[824894][environment] Infer version v1.0.0
+[824894][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[824894][environment] 
+[824894][   progress] Capturing in make/cc mode...
+[824894][environment] Running command make with env:
+[824894][environment] (Extend((PATH /opt/infer-linux64-v1.0.0/lib/infer/infer/bin/../lib/wrappers:/home/nunoa/.local/bin:/home/nunoa/Libraries/jdk-15.0.2//bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)(INFER_OLD_PATH /home/nunoa/.local/bin:/home/nunoa/Libraries/jdk-15.0.2//bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)))
+[824894][environment] 
+
+[824899][environment] CWD = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824899][environment] No .inferconfig file found
+[824899][environment] Project root = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824899][environment] INFER_ARGS =   @/tmp/args.tmp.9011d5
+[824899][environment] command line arguments:   clang -MJ src/tp04_04.json -Isrc -g -Wall
+[824899][environment]                           src/tp04_04.c -o tp04_04 -lpthread
+[824899][environment] Available memory at startup: 1772 MB
+[824899][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[824899][      debug] 
+[824899][      debug] *** Beginning capture of file /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04/src/tp04_04.c ***
+[824899][      debug] Loading the following linters files: /opt/infer-linux64-v1.0.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[824899][      debug] Elapsed: 61.304ms.
+[824899][      debug] GC stats for capture:
+[824899][      debug]   minor_words: 2.41359e+06
+[824899][      debug]   promoted_words: 358649
+[824899][      debug]   major_words: 375129
+[824899][      debug]   minor_collections: 4
+[824899][      debug]   major_collections: 0
+[824899][      debug]   compactions: 0
+[824899][      debug]   top_heap_words: 574976
+[824899][      debug]   
+[824899][      debug] GC stats for main_process_full:
+[824899][      debug]   minor_words: 3.70965e+06
+[824899][      debug]   promoted_words: 526086
+[824899][      debug]   major_words: 558664
+[824899][      debug]   minor_collections: 8
+[824899][      debug]   major_collections: 2
+[824899][      debug]   compactions: 1
+[824899][      debug]   top_heap_words: 574976
+[824899][      debug]   
+[824899][environment] Scheduler: file
+[824899][environment] Cores used: 4
+[824899][environment] 
+[824905][environment] CWD = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824905][environment] No .inferconfig file found
+[824905][environment] Project root = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824905][environment] INFER_ARGS =   @/tmp/args.tmp.4361b2
+[824905][environment] command line arguments:   clang -MJ src/tp04_06.json -Isrc -g -Wall
+[824905][environment]                           src/tp04_06.c -o tp04_06 -lpthread
+[824905][environment] Available memory at startup: 1711 MB
+[824905][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[824905][      debug] 
+[824905][      debug] *** Beginning capture of file /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04/src/tp04_06.c ***
+[824905][      debug] Loading the following linters files: /opt/infer-linux64-v1.0.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[824905][      debug] Elapsed: 52.272ms.
+[824905][      debug] GC stats for capture:
+[824905][      debug]   minor_words: 1.34164e+06
+[824905][      debug]   promoted_words: 247740
+[824905][      debug]   major_words: 261736
+[824905][      debug]   minor_collections: 3
+[824905][      debug]   major_collections: 0
+[824905][      debug]   compactions: 0
+[824905][      debug]   top_heap_words: 434176
+[824905][      debug]   
+[824905][      debug] GC stats for main_process_full:
+[824905][      debug]   minor_words: 2.6377e+06
+[824905][      debug]   promoted_words: 415177
+[824905][      debug]   major_words: 445271
+[824905][      debug]   minor_collections: 7
+[824905][      debug]   major_collections: 2
+[824905][      debug]   compactions: 1
+[824905][      debug]   top_heap_words: 434176
+[824905][      debug]   
+[824905][environment] Scheduler: file
+[824905][environment] Cores used: 4
+[824905][environment] 
+[824922][environment] CWD = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824922][environment] No .inferconfig file found
+[824922][environment] Project root = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824922][environment] INFER_ARGS =   @/tmp/args.tmp.f74b78
+[824922][environment] command line arguments:   clang -MJ src/tp04_07.json -Isrc -g -Wall
+[824922][environment]                           src/tp04_07.c -o tp04_07 -lpthread
+[824922][environment] Available memory at startup: 1744 MB
+[824922][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[824922][      debug] 
+[824922][      debug] *** Beginning capture of file /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04/src/tp04_07.c ***
+[824922][      debug] Loading the following linters files: /opt/infer-linux64-v1.0.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[824922][      debug] Elapsed: 54.68ms.
+[824922][      debug] GC stats for capture:
+[824922][      debug]   minor_words: 1.69345e+06
+[824922][      debug]   promoted_words: 257739
+[824922][      debug]   major_words: 270774
+[824922][      debug]   minor_collections: 3
+[824922][      debug]   major_collections: 0
+[824922][      debug]   compactions: 0
+[824922][      debug]   top_heap_words: 434176
+[824922][      debug]   
+[824922][      debug] GC stats for main_process_full:
+[824922][      debug]   minor_words: 2.98951e+06
+[824922][      debug]   promoted_words: 425176
+[824922][      debug]   major_words: 454309
+[824922][      debug]   minor_collections: 7
+[824922][      debug]   major_collections: 2
+[824922][      debug]   compactions: 1
+[824922][      debug]   top_heap_words: 434176
+[824922][      debug]   
+[824922][environment] Scheduler: file
+[824922][environment] Cores used: 4
+[824922][environment] 
+[824927][environment] CWD = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824927][environment] No .inferconfig file found
+[824927][environment] Project root = /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04
+[824927][environment] INFER_ARGS =   @/tmp/args.tmp.73e4c4
+[824927][environment] command line arguments:   clang -MJ src/tp04_08.json -Isrc -g -Wall
+[824927][environment]                           src/tp04_08.c -o tp04_08 -lpthread
+[824927][environment] Available memory at startup: 1770 MB
+[824927][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[824927][      debug] 
+[824927][      debug] *** Beginning capture of file /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04/src/tp04_08.c ***
+[824927][      debug] Loading the following linters files: /opt/infer-linux64-v1.0.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[824927][      debug] Elapsed: 66.024ms.
+[824927][      debug] GC stats for capture:
+[824927][      debug]   minor_words: 2.21693e+06
+[824927][      debug]   promoted_words: 317593
+[824927][      debug]   major_words: 335125
+[824927][      debug]   minor_collections: 3
+[824927][      debug]   major_collections: 0
+[824927][      debug]   compactions: 0
+[824927][      debug]   top_heap_words: 499712
+[824927][      debug]   
+[824927][      debug] GC stats for main_process_full:
+[824927][      debug]   minor_words: 3.51299e+06
+[824927][      debug]   promoted_words: 485030
+[824927][      debug]   major_words: 518660
+[824927][      debug]   minor_collections: 7
+[824927][      debug]   major_collections: 2
+[824927][      debug]   compactions: 1
+[824927][      debug]   top_heap_words: 499712
+[824927][      debug]   
+[824927][environment] Scheduler: file
+[824927][environment] Cores used: 4
+[824927][environment] [824894][      debug] GC stats for capture:
+[824894][      debug]   minor_words: 1568
+[824894][      debug]   promoted_words: 0
+[824894][      debug]   major_words: 0
+[824894][      debug]   minor_collections: 0
+[824894][      debug]   major_collections: 0
+[824894][      debug]   compactions: 0
+[824894][      debug]   top_heap_words: 661504
+[824894][      debug]   
+[824894][environment] Parallel jobs: 4
+[824894][   progress] Found 4 source files to analyze in /home/nunoa/Documents/FEUP/SECOND_YEAR/SOPE/TP04/infer-out
+[824932][   progress] src/tp04_06.c starting
+[824933][   progress] src/tp04_07.c starting
+[824935][   progress] src/tp04_04.c starting
+[824934][   progress] src/tp04_08.c starting
+[824934][   progress] src/tp04_08.c DONE
+[824935][   progress] src/tp04_04.c DONE
+[824932][   progress] src/tp04_06.c DONE
+[824933][   progress] src/tp04_07.c DONE
+[824894][      debug] Backend stats:
+[824894][      debug]   summary_file_try_load= 102
+[824894][      debug]   summary_read_from_disk= 1
+[824894][      debug]   summary_cache_hits= 341 (76%)
+[824894][      debug]   summary_cache_misses= 102
+[824894][      debug]   ondemand_procs_analyzed= 9
+[824894][      debug]   ondemand_local_cache_hits= 150 (80%)
+[824894][      debug]   ondemand_local_cache_misses= 37
+[824894][      debug]   proc_locker_lock_time_user= 0.00000000
+[824894][      debug]   proc_locker_lock_time_sys= 0.00000000
+[824894][      debug]   proc_locker_lock_time_wall= 0.00000000
+[824894][      debug]   proc_locker_unlock_time_user= 0.00000000
+[824894][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[824894][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[824894][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[824894][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[824894][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[824894][      debug]   restart_scheduler_total_time_user= 0.00000000
+[824894][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[824894][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[824894][      debug]   
+[824894][      debug] GC stats for backend_stats.gc_stats_add.:
+[824894][      debug]   minor_words: 4.27836e+07
+[824894][      debug]   promoted_words: 804720
+[824894][      debug]   major_words: 867889
+[824894][      debug]   minor_collections: 44
+[824894][      debug]   major_collections: 4
+[824894][      debug]   compactions: 0
+[824894][      debug]   top_heap_words: 3500032
+[824894][      debug]   
+[824894][      debug] GC stats for backend_stats.gc_stats_max.:
+[824894][      debug]   minor_words: 1.07659e+07
+[824894][      debug]   promoted_words: 202737
+[824894][      debug]   major_words: 219679
+[824894][      debug]   minor_collections: 11
+[824894][      debug]   major_collections: 1
+[824894][      debug]   compactions: 0
+[824894][      debug]   top_heap_words: 875008
+[824894][      debug]   
+[824894][      debug] Average over 4 processes
+[824894][      debug] GC stats for backend_stats.gc_stats_average.:
+[824894][      debug]   minor_words: 1.06959e+07
+[824894][      debug]   promoted_words: 201180
+[824894][      debug]   major_words: 216972
+[824894][      debug]   minor_collections: 11
+[824894][      debug]   major_collections: 1
+[824894][      debug]   compactions: 0
+[824894][      debug]   top_heap_words: 875008
+[824894][      debug]   
+[824894][      debug] Analysis phase finished in 180ms
+[824894][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01910400
+[824894][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01161800
+[824894][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.18047980
+[824894][      debug] GC stats for analysis_scheduler:
+[824894][      debug]   minor_words: 261314
+[824894][      debug]   promoted_words: 137277
+[824894][      debug]   major_words: 145983
+[824894][      debug]   minor_collections: 1
+[824894][      debug]   major_collections: 2
+[824894][      debug]   compactions: 1
+[824894][      debug]   top_heap_words: 875008
+[824894][      debug]   
+[824894][      debug] GC stats for report:
+[824894][      debug]   minor_words: 2247
+[824894][      debug]   promoted_words: 0
+[824894][      debug]   major_words: 0
+[824894][      debug]   minor_collections: 0
+[824894][      debug]   major_collections: 0
+[824894][      debug]   compactions: 0
+[824894][      debug]   top_heap_words: 875008
+[824894][      debug]   
+[824894][      debug] GC stats for main_process_full:
+[824894][      debug]   minor_words: 1.80309e+06
+[824894][      debug]   promoted_words: 304644
+[824894][      debug]   major_words: 821556
+[824894][      debug]   minor_collections: 5
+[824894][      debug]   major_collections: 4
+[824894][      debug]   compactions: 2
+[824894][      debug]   top_heap_words: 875008
+[824894][      debug]   
+[824895][      debug] Sqlite write daemon: terminating

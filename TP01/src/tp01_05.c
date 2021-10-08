@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 int main(int argc, char * argv[], char * env[]) {
     printf("---------------Command arguments: \n\n");
@@ -9,6 +10,12 @@ int main(int argc, char * argv[], char * env[]) {
         printf("%s\n", argv[i]);
     }
     i=0;
+
+    printf("\n\n ---- ALTERNATIVELY WITH GETENV\n\n");
+
+    for(int i = 0; i < argc; i++) {
+        printf("%s=%s\n", argv[i] , getenv(argv[i]));
+    }
 
     printf("\n\n--------------Environment variables: \n\n");
     char * eqPointer;
